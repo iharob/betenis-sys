@@ -16,7 +16,7 @@ AS_IF([test "x$MYSQL_CONFIG" == "xno"],
 )
 
 PKG_CHECK_MODULES([MONGOC], [libmongoc-1.0 >= 1.0])
-PKG_CHECK_MODULES([HTTP_IO], [httpio >= 1.0.0])
+PKG_CHECK_MODULES([HTTP_IO], [libhttpio >= 1.0.0])
 PKG_CHECK_MODULES([JSON_C], [json-c >= 0.11])
 PKG_CHECK_MODULES([LIBXML_2], [libxml-2.0 >= 2.7])
 PKG_CHECK_MODULES([PCRE], [libpcre >= 7.8])
